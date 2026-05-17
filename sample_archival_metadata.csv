@@ -1,0 +1,5 @@
+MetadataId,TableName,DateColumn,RetentionYears,FileFormat,StorageTier,SchemaName,IsActive
+1,FactSalesTransaction,TransactionDate,3,Parquet,Hot,dbo,1
+2,FactOrderHistory,OrderDate,5,Parquet,Hot,dbo,1
+3,FactAuditLog,AuditDate,7,Parquet,Cold,dbo,1
+4,TelemetryEvents,EventDate,1,Parquet,Cold,dbo,1
